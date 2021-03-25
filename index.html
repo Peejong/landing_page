@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FCC: Product Landing Page</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img src="https://i.postimg.cc/g0mpBdG3/Logo.png" id="header-img" alt="Spartan logo">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="showcase">
+      <div class="showcase-text">
+        <h1 class="showcase-title">Stay Healthy and Fit </h1>
+        <p class="showcase-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, vero.</p>
+      </div>
+      <video id="video" autoplay loop muted>
+        <source src="https://storage.coverr.co/videos/602RyrgY7cWo8Cih01QxfBTqdAFhMx02xe00?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjE2MzMyNzA5fQ.HN548ySHXyml3M7R5yk5mf1VMDz09mDwjSacNEY_0Bs" type="video/mp4">
+      </video>
+    </section>
+  </header>
+
+  <section id="about">
+    <h2 class="h2-heading">About</h2>
+    <p class="about-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestias tempore ducimus nesciunt dolorem voluptas odit laborum voluptatum sapiente enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum laudantium dolor autem laborum error porro officiis deleniti quam esse.</p> 
+  </section>
+
+  <section id="features">
+    <h2 class="h2-heading">Features</h2>
+    <div class="features-container">
+      <div class="box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
+          <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
+          <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+          <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+        </svg>
+        <h3>Real Time Chart</h3>
+      </div>
+      <div class="box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+          <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+        </svg>
+        <h3>Exercise Alert</h3>
+      </div>
+      <div class="box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg>
+        <h3>Community Friendly</h3>
+      </div>
+      <div class="box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+          <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+          <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+        </svg>
+        <h3>Records User's Performance</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2 class="h2-heading">Pricing</h2>
+  </section>
+
+  <section id="contact">
+    <img src="https://images.pexels.com/photos/4754008/pexels-photo-4754008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="woman exercise">
+    <div class="contact-form">
+      <h2 class="h2-heading">Approach Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <input id="submit" type="submit" value="Get Started" >
+      </form>
+    </div>
+  </section>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html> 

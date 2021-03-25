@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#header,
+#about,
+#features,
+#pricing {
+  margin-bottom: 4rem;
+}
+
+.h2-heading {
+  font-size: 3.75rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+header {
+  background-color: #0a2a46;
+  color: #fff;
+}
+
+header #nav-bar {
+  background-color: #061b2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 2rem 5rem;
+}
+
+header #header-img {
+  height: 40px;
+  width: 40px;
+}
+
+header .nav-list {
+  display: flex;
+}
+
+header .nav-list .nav-item {
+  list-style: none;
+  display: inline-block;
+}
+
+header .nav-list .nav-item:not(:last-of-type) {
+  margin-right: 6rem;
+}
+
+header .nav-list .nav-item .nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+header .showcase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11.07rem 3rem;
+}
+
+header .showcase #video {
+  display: block;
+  width: 600px;
+}
+
+header .showcase .showcase-text .showcase-title {
+  font-size: 4.5rem;
+}
+
+header .showcase .showcase-text:not(:last-child) {
+  margin-right: 2rem;
+}
+
+#about {
+  padding: 5rem 3rem;
+  text-align: center;
+  color: #071d30;
+}
+
+#features {
+  background-color: #0a2a46;
+  padding: 7rem 3rem;
+  color: #fff;
+}
+
+#features .features-container {
+  display: flex;
+  justify-content: center;
+}
+
+#features .box {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#features svg {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 1.2rem;
+}
+
+#contact {
+  background-color: #0a2a46;
+  color: #fff;
+  display: flex;
+}
+
+#contact img {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+#contact .contact-form {
+  margin: 0 auto;
+  padding: 13rem 0;
+}
+
+#contact .contact-form #email,
+#contact .contact-form #submit {
+  width: 100%;
+  padding: 0.75rem 2rem;
+  font-size: 1.6rem;
+}
+
+#contact .contact-form #form > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 62.5em) {
+  header .showcase #video {
+    width: 475px;
+  }
+
+  header .showcase .showcase-text .showcase-title {
+    font-size: 3.75rem;
+  }
+
+  header .showcase .showcase-text .showcase-des {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 46.875em) {
+  header .showcase {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header .showcase {
+    padding: 5.25rem 3rem;
+  }
+
+  header .showcase .showcase-text:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  #features .features-container {
+    flex-direction: column;
+  }
+
+  #features .box {
+    padding: 3rem;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  header #nav-bar {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  header #nav-bar #header-img {
+    margin-bottom: 0.75rem;
+  }
+
+  header .nav-list .nav-item .nav-link {
+    font-size: 1.4rem;
+  }
+
+  header .showcase {
+    padding: 7.7rem 3rem;
+  }
+
+  header .showcase .showcase-text .showcase-title {
+    font-size: 3.25rem;
+  }
+
+  header .showcase .showcase-text .showcase-des {
+    font-size: 1.2rem;
+  }
+
+  header .showcase #video {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 23.75em) {
+  header .nav-list .nav-item:not(:last-of-type) {
+    margin-right: 1.6rem;
+  }
+
+  header .showcase {
+    padding: 12.354rem 3rem;
+  }
+
+  header .nav-list .nav-item .nav-link {
+    font-size: 1.2rem;
+  }
+
+  header .showcase .showcase-text .showcase-title {
+    font-size: 3rem;
+  }
+
+  header .showcase .showcase-text .showcase-des {
+    font-size: 1rem;
+  }
+
+  header .showcase #video {
+    width: 200px;
+  }
+}
